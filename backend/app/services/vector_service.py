@@ -6,8 +6,8 @@ import asyncio
 from datetime import datetime
 
 from agno.vectordb.lancedb import LanceDb, SearchType
-from agno.embedder.openai import OpenAIEmbedder
-from agno.knowledge.pdf_url import PDFUrlKnowledgeBase
+from agno.knowledge.embedder.google import GeminiEmbedder
+from agno.knowledge.reader.pdf_reader import PDFReader
 from agno.knowledge.document import Document
 
 from app.core.config import settings
@@ -21,9 +21,9 @@ class AgnoMathKnowledgeBase:
         self.embeddings_path.mkdir(parents=True, exist_ok=True)
         
         # Initialize Agno components
-        self.embedder = OpenAIEmbedder(
-            id="text-embedding-3-small",
-            api_key=settings.OPENAI_API_KEY
+        self.embedder = GeminiEmbedder(
+            id="gemini-embedding-001",
+            api_key=settings.GEMINI_API_KEY
         )
         
         self.vector_db = LanceDb(
@@ -58,18 +58,7 @@ class AgnoMathKnowledgeBase:
                             # Create document for each mathematical problem
                             doc_content = self._format_problem_for_agno(problem)
                             
-                            document = Document(
-                                content=doc_content,
-                                meta={
-                                    "question": problem.get('question', ''),
-                                    "solution": problem.get('solution', ''),
-                                    "topic": problem.get('topic', 'general'),
-                                    "difficulty": problem.get('difficulty', 'medium'),
-                                    "source": data.get('metadata', {}).get('filename', 'unknown'),
-                                    "problem_type": problem.get('type', 'mathematical'),
-                                    "timestamp": datetime.now().isoformat()
-                                }
-                            )
+                            document = Document(content=doc_content)
                             documents.append(document)
                     
                     except Exception as e:
@@ -81,11 +70,7 @@ class AgnoMathKnowledgeBase:
                     self.vector_db.insert(documents)
                     print(f"Added {len(documents)} mathematical problems to Agno knowledge base")
             
-            # Create PDFUrlKnowledgeBase for compatibility
-            self.knowledge_base = PDFUrlKnowledgeBase(
-                urls=pdf_urls,
-                vector_db=self.vector_db
-            )
+            self.pdf_kb = PDFReader(path=settings.AGNO_EMBEDDINGS_PATH, vector_db=self.vector_db)
             
         except Exception as e:
             print(f"Error initializing knowledge base: {e}")
@@ -101,18 +86,7 @@ class AgnoMathKnowledgeBase:
                 doc_content = self._format_problem_for_agno(problem)
                 
                 # Create Agno document
-                document = Document(
-                    content=doc_content,
-                    meta={
-                        "question": problem.get("question", ""),
-                        "solution": problem.get("solution", ""),
-                        "topic": problem.get("topic", "general"),
-                        "difficulty": problem.get("difficulty", "medium"),
-                        "source": problem.get("source", "manual_input"),
-                        "problem_type": "mathematical",
-                        "timestamp": datetime.now().isoformat()
-                    }
-                )
+                document = Document(content=doc_content)
                 documents.append(document)
             
             # Insert into vector database
@@ -206,7 +180,7 @@ class AgnoMathKnowledgeBase:
         try:
             stats = {
                 "framework": "Agno with LanceDB",
-                "embedder": "OpenAI text-embedding-3-small",
+                "embedder": "Gemini gemini-embedding-001",
                 "vector_db_type": "LanceDB",
                 "knowledge_base_active": bool(self.knowledge_base)
             }
@@ -290,6 +264,32 @@ async def load_sample_math_dataset():
             "concepts": ["integration", "polynomial integration"],
             "formulas": ["power rule for integration"]
         }
+    ]
+    
+    knowledge_base = AgnoMathKnowledgeBase()
+    await knowledge_base.add_math_problems(sample_problems)
+    return knowledge_base
+
+# JEE Main 2025 Math dataset loading
+async def load_jee_dataset():
+    """Load JEE Main 2025 Math dataset"""
+    # This would integrate with the PhysicsWallahAI/JEE-Main-2025-Math dataset
+    sample_problems = [
+        {
+            "question": "Find the derivative of f(x) = x^3 + 2x^2 - 5x + 1",
+            "solution": "f'(x) = 3x^2 + 4x - 5",
+            "topic": "calculus",
+            "difficulty": "medium",
+            "source": "jee_main_2025"
+        },
+        {
+            "question": "Solve the quadratic equation 2x^2 + 5x - 3 = 0",
+            "solution": "Using quadratic formula: x = (-5 ± √(25 + 24))/4 = (-5 ± 7)/4. So x = 1/2 or x = -3",
+            "topic": "algebra",
+            "difficulty": "easy",
+            "source": "jee_main_2025"
+        }
+        # Add more problems...
     ]
     
     knowledge_base = AgnoMathKnowledgeBase()

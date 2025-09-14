@@ -6,7 +6,6 @@ import aiohttp
 # Agno imports for enhanced web search
 from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.agent import Agent
-from agno.models.openai import OpenAIChat
 from agno.models.google import Gemini
 
 from app.core.config import settings
@@ -28,9 +27,7 @@ class WebSearchMCP:
         """Setup Agno agent for intelligent web search"""
         try:
             # Choose model based on available API keys
-            if settings.OPENAI_API_KEY:
-                model = OpenAIChat(id="gpt-4o-mini", api_key=settings.OPENAI_API_KEY)
-            elif settings.GEMINI_API_KEY:
+            if settings.GEMINI_API_KEY:
                 model = Gemini(id="gemini-2.0-flash-exp", api_key=settings.GEMINI_API_KEY)
             else:
                 model = None
@@ -48,8 +45,7 @@ class WebSearchMCP:
                         "Provide clear, concise summaries of found content"
                     ],
                     tools=[self.ddg_tools],
-                    markdown=True,
-                    show_tool_calls=False
+                    markdown=True
                 )
             else:
                 self.search_agent = None
@@ -114,8 +110,9 @@ class WebSearchMCP:
             response = await self.search_agent.arun(search_prompt)
             
             # Extract search results from agent response
-            # This is a simplified extraction - in practice, you'd parse the agent's tool calls
-            return self._parse_agno_response(response, max_results)
+            # Convert RunOutput to string if needed
+            response_content = str(response.content) if hasattr(response, 'content') else str(response)
+            return self._parse_agno_response(response_content, max_results)
             
         except Exception as e:
             print(f"Error in Agno search: {e}")

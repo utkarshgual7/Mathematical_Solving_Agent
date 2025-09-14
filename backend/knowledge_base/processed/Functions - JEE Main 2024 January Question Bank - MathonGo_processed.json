@@ -1,0 +1,1910 @@
+{
+  "source_file": "knowledge_base\\pdfs\\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf",
+  "processed_at": "2025-09-14T13:49:55.738283",
+  "total_problems": 124,
+  "problems": [
+    {
+      "id": "section_0_problem_0",
+      "question": "1 - 2024 (01 Feb Shift 1)",
+      "answer": "nd (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_1",
+      "question": ") one-one but not onto (2) neither one-one nor onto (3) onto but not one-one (4) both one-one",
+      "answer": "nd onto",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_2",
+      "question": "2 - 2024 (01 Feb Shift 2) If the dom",
+      "answer": "in of the function is , then is e",
+      "solution_steps": [
+        "in of the function \n \n is \n, then \n is\ne"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_3",
+      "question": "u",
+      "answer": "l to : (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_4",
+      "question": ") 140 (2) 175 (3) 150 (4) 125 Q3 - 2024 (27 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_5",
+      "question": ") The function ; defined by the highest prime f",
+      "answer": "ctor of , is : (",
+      "solution_steps": [
+        "ctor of , is :\n("
+      ],
+      "mathematical_expressions": [],
+      "topic": "number_theory",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_6",
+      "question": ") both one-one",
+      "answer": "nd onto (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_7",
+      "question": ") one-one only (3) onto only (4) neither one-one nor onto Q4 - 2024 (27 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_8",
+      "question": ") Functions Questions with",
+      "answer": "Keys JEE Main",
+      "solution_steps": [
+        "Keys\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_9",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_10",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_11",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_12",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_13",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App Let f : R →R and g : R →R be defined as f(x) = { loge x , x >",
+      "solution_steps": [
+        "d MARKS App\nLet f : R →R and g : R →R be defined as \nf(x) = { loge x\n,\nx >"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_14",
+      "question": "e−x , x ≤0 f(x) = √x2−25 (4−x2) + log10(x2 + 2x −15) (−∞, α)U[β, ∞) α2 + β3 f : N −{1} →N f(n) = n Let",
+      "answer": "nd be defined as and . Then the domain of the function fog is : (",
+      "solution_steps": [
+        "nd \n be defined as \n and",
+        "Then the\ndomain of the function fog is :\n("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_15",
+      "question": ") (2) R (3) (4) Q5 - 2024 (29 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_16",
+      "question": ") If , then r",
+      "answer": "nge of (fog(x)) is (",
+      "solution_steps": [
+        "nge of (fog(x)) is\n("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_17",
+      "question": ") (0, 1] (2) [0, 3) (3) [0, 1] (4) [0, 1) Q6 - 2024 (29 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_18",
+      "question": ") Consider the function defined by . Consider the st",
+      "answer": "tements (I) The curve intersects the -axis exactly at one point (II) The curve intersects the -axis at Then (",
+      "solution_steps": [
+        "tements\n(I) The curve \n intersects the -axis exactly at one point\n(II) The curve \n intersects the -axis at \nThen\n("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_19",
+      "question": ") Only (II) is correct (2) Both (I)",
+      "answer": "nd (II) are incorrect (",
+      "solution_steps": [
+        "nd (II) are incorrect\n("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_20",
+      "question": ") Only (I) is correct (4) Both (I)",
+      "answer": "nd (II) are correct",
+      "solution_steps": [
+        "nd (II) are correct"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_21",
+      "question": "7 - 2024 (29 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_22",
+      "question": ") Functions Questions with",
+      "answer": "Keys JEE Main",
+      "solution_steps": [
+        "Keys\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_23",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.722756",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_24",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.724268",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_25",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.724268",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_26",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.724268",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_27",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App f : R −{ } →R −",
+      "solution_steps": [
+        "d MARKS App\nf : R −{\n} →R\n−"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.724268",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_28",
+      "question": "2 g : R −{ } →R −5 2 f(x) = 2x+3 2x+1 g(x) = |x|+1 2x+5 R −{−} 5 2 R −{−} 7 4 R −{−, −} 5 2 7 4 f(x) = { 2 + 2x, −1 ≤x < 0 1 − , 0 ≤x ≤3 ; g(x) = { −x, −3 ≤x ≤0 x, 0 < x ≤1 x 3 f : [ , 1] →R 1 2 f(x) = 4√2x3 −3√2x −1 y = f(x) x y = f(x) x x = cos π 12 Let . If",
+      "answer": "nd are respectively the number of points at which the curves and intersects the -axis, then the value of is",
+      "solution_steps": [
+        "nd  are respectively the number of points at which the curves \n and\n intersects the -axis, then the value of \n is"
+      ],
+      "mathematical_expressions": [
+        "x = cos π",
+        "y = f(x)"
+      ],
+      "topic": "trigonometry",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.726278",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_29",
+      "question": "8 - 2024 (30 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.726278",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_30",
+      "question": ") If the dom",
+      "answer": "in of the function is , then is e",
+      "solution_steps": [
+        "in of the function \n is \n, then \n is\ne"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.726278",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_31",
+      "question": "u",
+      "answer": "l to : (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.726278",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_32",
+      "question": ") 12 (2) 9 (3) 11 (4) 8 Q9 - 2024 (30 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.726278",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_33",
+      "question": ") Let",
+      "answer": "nd let denote the power set of . If the number of functions such that is and and is least, then is e",
+      "solution_steps": [
+        "nd let \n denote the power set of",
+        "If the number of functions \n such\nthat \n is \n and \n and \n is least, then \n is e"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.726278",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_34",
+      "question": "u",
+      "answer": "l to ______",
+      "solution_steps": [
+        "l to ______"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.726278",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_35",
+      "question": "10 - 2024 (30 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_36",
+      "question": ") If the dom",
+      "answer": "in of the function is , then the value of is e",
+      "solution_steps": [
+        "in of the function \n \n is \n, then the value of \n is\ne"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_37",
+      "question": "u",
+      "answer": "l to (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_38",
+      "question": ") 10 (2) 12 (3) 11 (4) 9 Q11 - 2024 (30 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_39",
+      "question": ") Let be",
+      "answer": "function defined and then (",
+      "solution_steps": [
+        "function defined \n and \n then \n("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_40",
+      "question": ") 33 (2) 36 Functions Questions with",
+      "answer": "Keys JEE Main",
+      "solution_steps": [
+        "Keys\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_41",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_42",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_43",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_44",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_45",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App f(x) =",
+      "solution_steps": [
+        "d MARKS App\nf(x) ="
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.727277",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_46",
+      "question": "x −x2, x ∈R m n y = f(x) y = f ′(x) x m + n f(x) = cos−1( ) + (loge(3 −x))−1 2−|x| 4 [−α, β) −{y} α + β + γ",
+      "answer": "= {",
+      "solution_steps": [],
+      "mathematical_expressions": [
+        "y = f(x)",
+        "y = f ′(x)"
+      ],
+      "topic": "trigonometry",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_47",
+      "question": ", 2, 3, … 7} P(1)",
+      "answer": "f : A →P(A) a ∈f(a), ∀a ∈A mn, m n ∈N m m + n f(x) = loge ( ) + cos−",
+      "solution_steps": [
+        "f : A →P(A)\na ∈f(a), ∀a ∈A\nmn, m\nn ∈N\nm\nm + n\nf(x) = loge (\n) + cos−"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_48",
+      "question": "( ) 2x+3 4x2+x−3 2x−1 x+2 (α, β] 5β −4α f : R →R f(x) = x (1+x4)1/4 g(x) = f(f(f(f(x)))) 18 ∫ √2√5 0 x2g(x)dx (3) 42 (4) 39 Q12 - 2024 (31 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_49",
+      "question": ") If",
+      "answer": "nd , where , then (gogog) (",
+      "solution_steps": [
+        "nd \n, where \n, then (gogog) ("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_50",
+      "question": ") is equ",
+      "answer": "l to (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_51",
+      "question": ") (2) (3) -4 (4) 4 Q13 - 2024 (31 J",
+      "answer": "n Shift",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_52",
+      "question": ") If the function defined by is one-one",
+      "answer": "nd onto, then the distance of the point from the line is : (",
+      "solution_steps": [
+        "nd onto, then the distance of\nthe point \n from the line \n is :\n("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_53",
+      "question": ") (2) (3) (4) Functions Questions with",
+      "answer": "Keys JEE Main",
+      "solution_steps": [
+        "Keys\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_54",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_55",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_56",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_57",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.728282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_58",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App f(x) = , x ≠",
+      "solution_steps": [
+        "d MARKS App\nf(x) =\n, x ≠"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_59",
+      "question": "x+3 6x−4 2 3 (f ∘f)(x) = g(x) g : R −{ } →R −{ } 2 3 2 3 −19 20 19 20 f : (−∞, −1] →(",
+      "answer": ", b] f(x) = ex",
+      "solution_steps": [
+        ", b]\nf(x) = ex"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_60",
+      "question": "−3x+1 P(2 b + 4,",
+      "answer": "+",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_61",
+      "question": ") x + e−3y = 4 2√1 + e6 4√1 + e6 3√1 + e6 √1 + e6",
+      "answer": "Key",
+      "solution_steps": [],
+      "mathematical_expressions": [
+        "y = 4"
+      ],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_62",
+      "question": "1 (2) Q2 (3) Q3 (4) Q4 (1) Q5 (3) Q6 (4) Q7 (5) Q8 (3) Q9 (44) Q10 (2) Q11 (4) Q12 (4) Q13 (1) Functions Questions with",
+      "answer": "Keys JEE Main",
+      "solution_steps": [
+        "Keys\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_63",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_64",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_65",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_66",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_67",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App",
+      "solution_steps": [
+        "d MARKS App"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.729282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_68",
+      "question": "1 Gr",
+      "answer": "ph of Many one into",
+      "solution_steps": [
+        "ph of \n Many one into"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_69",
+      "question": "2 Q3 m",
+      "answer": "ny one",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_70",
+      "question": "is not im",
+      "answer": "ge of any element into Functions Solutions JEE Main",
+      "solution_steps": [
+        "ge of any element\n into\n \nFunctions\nSolutions\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_71",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_72",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_73",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_74",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_75",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App g(f(x)) = { f(x), f(x) ≥",
+      "solution_steps": [
+        "d MARKS App\ng(f(x)) = {\nf(x), f(x) ≥"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_76",
+      "question": "ef(x), f(x) < 0 g(f(x)) = ⎧ ⎪ ⎨ ⎪ ⎩ e−x, (−∞, 0] eln x, (0, 1) ln x, [1, ∞) g(f(x)) g(f(x)) ⇒ f(x) = + log10(x2 + 2x −15) Dom",
+      "answer": "in : x",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_77",
+      "question": "−25 ≥0 ⇒x ∈(−∞, −5] ∪[5, ∞) 4 −x2 ≠0 ⇒x ≠{−2, 2} x2 + 2x −15 > 0 ⇒(x + 5)(x −3) > 0 ⇒x ∈(−∞, −5) ∪(3, ∞) ∴x ∈(−∞, −5) ∪[5, ∞) α = −5; β = 5 ∴α2 + β3 = 150 √x2 −25 4 −x2 f : N −{1} →N f(n) = The highest prime f",
+      "answer": "ctor of n. f(",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "number_theory",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_78",
+      "question": ") = 2 f(4) = 2 ⇒ ⇒ Hence m",
+      "answer": "ny one and into Neither one-one nor onto.",
+      "solution_steps": [
+        "ny one and into\nNeither one-one nor onto"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_79",
+      "question": "4 Dom",
+      "answer": "in of and and Domain will be",
+      "solution_steps": [
+        "in of \n and \n and \n Domain will be"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_80",
+      "question": "5 By (1)",
+      "answer": "nd by (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_81",
+      "question": ")",
+      "answer": "nd Functions Solutions JEE Main",
+      "solution_steps": [
+        "nd \n \nFunctions\nSolutions\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_82",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_83",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_84",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_85",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_86",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App f(x) = ; x ≠− g(x) = , x ≠−",
+      "solution_steps": [
+        "d MARKS App\nf(x) =\n; x ≠−\n g(x) =\n, x ≠−"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_87",
+      "question": "x + 3 2x + 1 1 2 |x| + 1 2x + 5 5 2 f(g(x)) f(g(x)) = 2g(x)+3 2g(x)+1 x ≠−5 2 ≠− |x|+1 2x+5 1 2 x ∈R −{−} 5 2 x ∈R ∴ R −{−} 5 2 x ∈ϕ x ∈[−3, 0] x ∈[0, 1] R",
+      "answer": "nge of f(g(x)) is [",
+      "solution_steps": [
+        "nge of f(g(x)) is ["
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_88",
+      "question": ", 1] Q6 is correct. Let , (4) is correct. Q7 Functions",
+      "answer": "s JEE Main",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_89",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_90",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_91",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_92",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_93",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App f ′(x) =",
+      "solution_steps": [
+        "d MARKS App\nf ′(x) ="
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_94",
+      "question": "√2x2 −3√2 ≥0 for [ , 1] 1 2 f ( ) < 0 1 2 f(1) > 0 ⇒(",
+      "answer": ") f(x) = √",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.730282",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_95",
+      "question": "(4x3 −3x) −1 = 0 cos α = x cos 3α = cos ⇒α = π 4 π 12 x = cos π 12 ∴m = 3 f ′(x) = 2x ln 2 −2x = 0 2x ln 2 = 2x Q8 ...(1) Now,",
+      "answer": "nd ...(",
+      "solution_steps": [],
+      "mathematical_expressions": [
+        "x = cos π",
+        "m = 3",
+        "x = 0"
+      ],
+      "topic": "trigonometry",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.732288",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_96",
+      "question": ")",
+      "answer": "nd ...(",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.732288",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_97",
+      "question": ") From (1), (2)",
+      "answer": "nd (",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.732288",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_98",
+      "question": ") Q9 Th",
+      "answer": "t means 'a' will connect with subset which contain element ' ' Total options for",
+      "solution_steps": [
+        "t means 'a' will connect with subset which contain element '  '\nTotal options for"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.732288",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_99",
+      "question": "will be . (Bec",
+      "answer": "use subsets contains",
+      "solution_steps": [
+        "use \n subsets contains"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.732288",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_100",
+      "question": ") Simil",
+      "answer": "rly, for every other element Hence, total is Ans. Functions Solutions JEE Main",
+      "solution_steps": [
+        "rly, for every other element\nHence, total is \nAns",
+        "Functions\nSolutions\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.732288",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_101",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.732288",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_102",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.733283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_103",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.733283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_104",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.733283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_105",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App ∴n =",
+      "solution_steps": [
+        "d MARKS App\n∴n ="
+      ],
+      "mathematical_expressions": [
+        "n ="
+      ],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.733283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_106",
+      "question": "⇒m + n = 5 −1 ≤∣ ∣∣ ∣ ∣∣ ≤1 ⇒∣ ∣∣ ∣ ∣∣ ≤1 −4 ≤2 −|x| ≤4 −6 ≤−|x| ≤2 −2 ≤|x| ≤6 |x| ≤6 2 −|x| 4 2 −|x| 4 ⇒x ∈[−6, 6] 3 −x ≠1 x ≠2 3 −x > 0 x < 3 ⇒ x ∈[−6, 3) −{2} α = 6 β = 3 γ = 2 α + β + γ = 11 f :",
+      "answer": "→P(A) a ∈f(a) a",
+      "solution_steps": [
+        "→P(A)\na ∈f(a)\na"
+      ],
+      "mathematical_expressions": [
+        "n = 5"
+      ],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.734279",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_107",
+      "question": "26 26  26  26  26  26  26  26 = 242 2 + 42 = 44 Q10 Q11 Let Q12 Functions",
+      "answer": "s JEE Main",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.734279",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_108",
+      "question": "J",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.734279",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_109",
+      "question": "B",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.734279",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_110",
+      "question": "s",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.734279",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_111",
+      "question": "s of JEE M",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.734279",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_112",
+      "question": "till 2024? Click here to downlo",
+      "answer": "d MARKS App >",
+      "solution_steps": [
+        "d MARKS App\n>"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.734279",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_113",
+      "question": "and −1 ≤ ≤1 > 0 ≥0& ≤0 (−∞/2 + −1 (−2, 3] … [ , ∞) … . . (1) [ , 3] … . . (3) (1) ∩(2) ∩(3) ( , 3] α = β = 3 5β −4α = 15 −3 = 12 2x + 3 4x2 + x −3 2x −1 x + 2 2  +3 (4x −3)(x + 1) 3x + 1 x + 2 x −3 x + 2 −1 3 −1 3 3 4 3 4 f(x) = f ∘f(x) = = = f(f(f(f(x)))) = 18 ∫ √2√5 0 dx x (1 + x4)1/4 f(x) (1 + f(x)4)1/4 x (1+x4)1/4 (1 + ) 1/4 x4 1+x4 x (1 + 2x4)1/4 x (1 + 4x4)1/4 x3 (1 + 4x4)1/4 1 + 4x4 = t4 16x3dx = 4t3dt ∫ 3 1 18 4 t3dt t = ( ) 3 1 = [26] = 39 9 2 t3 3 3 2 Q13 For is incre",
+      "answer": "nd −",
+      "solution_steps": [],
+      "mathematical_expressions": [
+        "x = 4t3dt",
+        "t = ("
+      ],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.736283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_114",
+      "question": "J",
+      "answer": "sing function Functions Solutions JEE Main",
+      "solution_steps": [
+        "sing function\n \nFunctions\nSolutions\nJEE Main"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.736283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_115",
+      "question": "B",
+      "answer": "nuary",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.736283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_116",
+      "question": "s",
+      "answer": "nk MathonGo Do you want to practice these PY",
+      "solution_steps": [
+        "nk\nMathonGo\nDo you want to practice these PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.736283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_117",
+      "question": "s of JEE M",
+      "answer": "long with PY",
+      "solution_steps": [
+        "long with PY"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.736283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_118",
+      "question": "till 2024? Click here to downlo",
+      "answer": "in from",
+      "solution_steps": [],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.736283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_119",
+      "question": "))) = 4 4x + 3 6x −4 4 ( ) + 3 4x+3 6x−4 6 ( ) −4 4x+3 6x−4 34x 34 f(x) = ex3−3x+1 f ′(x) = ex3−3x+1 ⋅(3x2 −3) = ex3−3x+1 ⋅3(x −1)(x + 1) f ′(x) ≥0 ∴f(x) ∴",
+      "answer": "d MARKS App f(x) = g(x) = = = x g(x) = x ∴g(g(g(",
+      "solution_steps": [
+        "d MARKS App\nf(x) =\ng(x) =\n=\n= x\ng(x) = x ∴g(g(g("
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.736283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_120",
+      "question": "= f(−∞) b = e−1+3+1 = e3 = f(−1) P(2b + 4,",
+      "answer": "= e−∞=",
+      "solution_steps": [],
+      "mathematical_expressions": [
+        "b = e−1+3+1 = e3 = f(−1)"
+      ],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.737283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_121",
+      "question": ") ∴P (2e3 + 4, 2) d = = 2√1 + e6 (2e3+4)+2e−3−4 √1+e−6",
+      "answer": "+",
+      "solution_steps": [],
+      "mathematical_expressions": [
+        "d = = 2√1 + e6"
+      ],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.737283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_122",
+      "question": "1 - 2024 (01 Feb Shift 1)",
+      "answer": "many one and into Neither one-one nor onto. Q4 Domain of and and Domain will be Q5 By (1) And by (2) and Functions Solutions JEE Main 2024 January",
+      "solution_steps": [
+        "And by (2) "
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.737283",
+        "extraction_method": "pattern_based"
+      }
+    },
+    {
+      "id": "section_0_problem_123",
+      "question": ") one-one but not onto (2) neither one-one nor onto (3) onto but not one-one (4) both one-one",
+      "answer": "total is Ans. Functions Solutions JEE Main 2024 January",
+      "solution_steps": [
+        "total is \nAns",
+        "Functions\nSolutions\nJEE Main 2024 January"
+      ],
+      "mathematical_expressions": [],
+      "topic": "general",
+      "difficulty": "basic",
+      "source_section": 0,
+      "metadata": {
+        "extracted_at": "2025-09-14T13:49:55.738283",
+        "extraction_method": "pattern_based"
+      }
+    }
+  ],
+  "metadata": {
+    "text_length": 7477,
+    "processing_version": "1.0"
+  }
+}

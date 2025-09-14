@@ -9,9 +9,9 @@ from pathlib import Path
 import fitz  # PyMuPDF
 import sympy as sp
 from sympy.parsing.latex import parse_latex
-from agno.knowledge.pdf_url import PDFUrlKnowledgeBase
+from agno.knowledge.reader.pdf_reader import PDFReader
 from agno.vectordb.lancedb import LanceDb, SearchType
-from agno.embedder.openai import OpenAIEmbedder
+from agno.knowledge.embedder.google import GeminiEmbedder
 
 from app.core.config import settings
 
@@ -358,7 +358,7 @@ class MathPDFProcessor:
             self.logger.error(f"Error processing PDF {pdf_path}: {str(e)}")
             raise
     
-    def create_agno_knowledge_base(self, processed_files: List[str] = None) -> PDFUrlKnowledgeBase:
+    def create_agno_knowledge_base(self, processed_files: List[str] = None) -> PDFReader:
         """Create Agno knowledge base from processed mathematical content"""
         try:
             # Ensure embeddings directory exists
@@ -369,9 +369,9 @@ class MathPDFProcessor:
                 uri=str(self.embeddings_path / "math_knowledge.lancedb"),
                 table_name="mathematical_problems",
                 search_type=SearchType.hybrid,
-                embedder=OpenAIEmbedder(
-                    id="text-embedding-3-small",
-                    api_key=settings.OPENAI_API_KEY
+                embedder=GeminiEmbedder(
+                    id="gemini-embedding-001",
+                    api_key=settings.GEMINI_API_KEY
                 )
             )
             
@@ -389,20 +389,12 @@ class MathPDFProcessor:
             # Create knowledge base content for Agno
             knowledge_content = self._format_for_agno(all_problems)
             
-            # Create temporary file for Agno to process
-            temp_file = self.processed_path / "agno_knowledge_temp.txt"
-            with open(temp_file, 'w', encoding='utf-8') as f:
-                f.write(knowledge_content)
-            
-            # Create Agno knowledge base
-            knowledge_base = PDFUrlKnowledgeBase(
-                urls=[str(temp_file)],
-                vector_db=vector_db
-            )
-            
             self.logger.info(f"Created Agno knowledge base with {len(all_problems)} problems")
             
-            return knowledge_base
+            return PDFReader(
+                path=str(self.pdfs_path),
+                vector_db=vector_db
+            )
             
         except Exception as e:
             self.logger.error(f"Error creating Agno knowledge base: {str(e)}")
@@ -462,7 +454,7 @@ def get_pdf_processor() -> MathPDFProcessor:
     """Get configured PDF processor instance"""
     return MathPDFProcessor()
 
-def process_new_pdfs() -> PDFUrlKnowledgeBase:
+async def process_new_pdfs() -> PDFReader:
     """Process any new PDFs and return updated knowledge base"""
     processor = get_pdf_processor()
     processor.process_all_pdfs()

@@ -4,12 +4,13 @@ pydantic==2.5.0
 qdrant-client==1.7.0
 sentence-transformers==2.2.2
 # Replacing DSPy with Agno for better AI agent capabilities
-agno==1.1.1
+agno==2.0.4
 # Agno dependencies for knowledge base and web search
 lancedb>=0.3.0
 tantivy>=0.20.0
 pypdf>=3.0.0
 duckduckgo-search>=3.9.0
+ddgs
 aiohttp==3.9.1
 mcp==0.9.1
 python-multipart==0.0.7

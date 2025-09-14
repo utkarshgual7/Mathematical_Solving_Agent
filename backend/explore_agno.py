@@ -19,10 +19,10 @@ except ImportError as e:
     print(f"✗ agno.tools.duckduckgo.DuckDuckGoTools failed: {e}")
 
 try:
-    from agno.models.openai import OpenAIChat
-    print("✓ agno.models.openai.OpenAIChat imported successfully")
+    from agno.models.google import Gemini
+    print("✓ agno.models.google.Gemini imported successfully")
 except ImportError as e:
-    print(f"✗ agno.models.openai.OpenAIChat failed: {e}")
+    print(f"✗ agno.models.google.Gemini failed: {e}")
 
 try:
     from agno.vectordb.lancedb import LanceDb
@@ -31,7 +31,7 @@ except ImportError as e:
     print(f"✗ agno.vectordb.lancedb.LanceDb failed: {e}")
 
 try:
-    from agno.embedder.openai import OpenAIEmbedder
-    print("✓ agno.embedder.openai.OpenAIEmbedder imported successfully")
+    from agno.embedder.google import GeminiEmbedder
+    print("✓ agno.embedder.google.GeminiEmbedder imported successfully")
 except ImportError as e:
-    print(f"✗ agno.embedder.openai.OpenAIEmbedder failed: {e}")
+    print(f"✗ agno.embedder.google.GeminiEmbedder failed: {e}")

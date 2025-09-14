@@ -1,12 +1,9 @@
 from agno.agent import Agent
-from agno.models.openai import OpenAIChat
 from agno.models.google import Gemini
 from agno.tools.duckduckgo import DuckDuckGoTools
-from agno.knowledge.pdf_url import PDFUrlKnowledgeBase
+from agno.knowledge.reader.pdf_reader import PDFReader
 from agno.vectordb.lancedb import LanceDb, SearchType
-from agno.embedder.openai import OpenAIEmbedder
-from agno.memory import AgentMemory
-from agno.storage import AgentStorage
+from agno.knowledge.embedder.google import GeminiEmbedder
 
 from typing import Dict, List, Optional, Any
 from datetime import datetime
@@ -126,7 +123,7 @@ class MathRoutingAgent:
         self.feedback_history = []
         self.session_memory = {}
     
-    def _setup_knowledge_base(self) -> Optional[PDFUrlKnowledgeBase]:
+    def _setup_knowledge_base(self) -> Optional[PDFReader]:
         """Setup mathematical knowledge base from processed PDFs"""
         try:
             # Check if there are processed PDFs
@@ -142,14 +139,14 @@ class MathRoutingAgent:
                     uri=str(embeddings_path / "math_knowledge.lancedb"),
                     table_name="mathematical_problems",
                     search_type=SearchType.hybrid,
-                    embedder=OpenAIEmbedder(
-                        id="text-embedding-3-small",
-                        api_key=settings.OPENAI_API_KEY
-                    )
+                    embedder=GeminiEmbedder(
+                id="gemini-embedding-001",
+                api_key=settings.GEMINI_API_KEY
+            )
                 )
                 
-                return PDFUrlKnowledgeBase(
-                    urls=[],  # Empty initially
+                return PDFReader(
+                    path=str(self.kb_path / "pdfs"),
                     vector_db=vector_db
                 )
         except Exception as e:
@@ -160,8 +157,8 @@ class MathRoutingAgent:
         """Setup specialized Agno agents for different mathematical tasks"""
         
         # Choose model based on available API keys
-        if settings.OPENAI_API_KEY:
-            model = OpenAIChat(id="gpt-4o", api_key=settings.OPENAI_API_KEY)
+        if settings.GEMINI_API_KEY:
+            model = Gemini(api_key=settings.GEMINI_API_KEY)
         elif settings.GEMINI_API_KEY:
             model = Gemini(id="gemini-2.0-flash-exp", api_key=settings.GEMINI_API_KEY)
         else:
@@ -180,12 +177,9 @@ class MathRoutingAgent:
                 "If unsure, search for similar problems in the knowledge base",
                 "Validate your solutions before presenting them"
             ],
-            tools=[DuckDuckGoTools(), ReasoningTools()],
+            tools=[DuckDuckGoTools()],
             knowledge=self.knowledge_base,
-            memory=AgentMemory(),
-            storage=AgentStorage(),
-            markdown=True,
-            show_tool_calls=True
+            markdown=True
         )
         
         # Solution validator agent
@@ -200,7 +194,7 @@ class MathRoutingAgent:
                 "Provide constructive feedback",
                 "Suggest improvements if needed"
             ],
-            tools=[ReasoningTools()],
+            tools=[],
             markdown=True
         )
         
@@ -215,7 +209,7 @@ class MathRoutingAgent:
                 "Identify key concepts and formulas needed",
                 "Provide clear transitions between steps"
             ],
-            tools=[ReasoningTools()],
+            tools=[],
             knowledge=self.knowledge_base,
             markdown=True
         )
@@ -534,7 +528,7 @@ class MathRoutingAgent:
                     # Try to get vector database stats
                     if hasattr(self.knowledge_base, 'vector_db') and self.knowledge_base.vector_db:
                         stats["vector_db_type"] = "LanceDB"
-                        stats["embedder"] = "OpenAI text-embedding-3-small"
+                        stats["embedder"] = "Gemini gemini-embedding-001"
                     
                     # Check processed PDFs
                     processed_path = Path("knowledge_base/processed")

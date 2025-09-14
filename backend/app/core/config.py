@@ -23,7 +23,6 @@ class Settings(BaseSettings):
     AGNO_EMBEDDING_MODEL: str = "text-embedding-3-small"
     
     # LLM Settings
-    OPENAI_API_KEY: str = ""
     GEMINI_API_KEY: str = ""
     ANTHROPIC_API_KEY: str = ""
     

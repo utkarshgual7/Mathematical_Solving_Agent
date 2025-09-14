@@ -215,18 +215,14 @@ class AgnoIntegrationTester:
         """Test mathematical routing agent initialization"""
         try:
             # Check if we have required API keys
-            has_openai = bool(settings.OPENAI_API_KEY)
-            has_gemini = bool(settings.GEMINI_API_KEY)
-            
-            if not (has_openai or has_gemini):
+            if not has_gemini:
                 self.log_test(
                     "Math Agent Initialization",
                     False,
                     "No API keys available for LLM models",
                     {
-                        "has_openai_key": has_openai,
                         "has_gemini_key": has_gemini,
-                        "note": "Set OPENAI_API_KEY or GEMINI_API_KEY in .env file"
+                        "note": "Set GEMINI_API_KEY in .env file"
                     }
                 )
                 return
@@ -248,7 +244,7 @@ class AgnoIntegrationTester:
                         "has_solver_agent": has_solver,
                         "has_knowledge_base": has_knowledge_base,
                         "has_math_tools": has_tools,
-                        "api_keys_available": {"openai": has_openai, "gemini": has_gemini}
+                        "api_keys_available": {"gemini": has_gemini}
                     }
                 )
             else:
@@ -357,7 +353,7 @@ class AgnoIntegrationTester:
         if failed_tests > 0:
             print("\n⚠️  Some tests failed. Check the detailed results for more information.")
             print("Common issues:")
-            print("- Missing API keys (OPENAI_API_KEY or GEMINI_API_KEY)")
+            print("- Missing API keys (GEMINI_API_KEY)")
             print("- Network connectivity for web search")
             print("- Missing dependencies (run: pip install -r requirements.txt)")
         else:

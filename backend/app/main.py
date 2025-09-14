@@ -54,7 +54,7 @@ async def startup_event():
         
         # Initialize math agent
         print("Initializing math agent...")
-        math_agent = MathRoutingAgent(knowledge_base, web_search)
+        math_agent = MathRoutingAgent(web_search)
         
         # Initialize guardrails
         print("Initializing guardrails...")
