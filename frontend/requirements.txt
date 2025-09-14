@@ -1,0 +1,11 @@
+# Frontend dependencies are managed via npm/package.json
+# This file is just for documentation purposes
+
+# To install frontend dependencies:
+# npm install
+
+# To run the frontend in development mode:
+# npm run dev
+
+# To build the frontend for production:
+# npm run build
