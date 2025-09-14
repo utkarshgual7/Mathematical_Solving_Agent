@@ -1,0 +1,2 @@
+2025-09-14 14:17:37,594 - pdf_processor - ERROR - Error creating Agno knowledge base: LanceDb.insert() missing 1 required positional argument: 'documents'
+2025-09-14 14:17:37,594 - pdf_processor - ERROR - Error creating Agno knowledge base: LanceDb.insert() missing 1 required positional argument: 'documents'

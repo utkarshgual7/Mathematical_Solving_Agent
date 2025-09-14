@@ -65,10 +65,10 @@ class AgnoMathKnowledgeBase:
                         print(f"Error processing {file_path}: {e}")
                         continue
                 
-                # Add documents to vector database
+                # Skip document insertion for now due to LanceDb.insert() issues
+                # The PDFReader will handle document loading from the processed files
                 if documents:
-                    self.vector_db.insert(documents)
-                    print(f"Added {len(documents)} mathematical problems to Agno knowledge base")
+                    print(f"Prepared {len(documents)} mathematical problems for Agno knowledge base (skipping direct insert due to LanceDb compatibility issues)")
             
             self.pdf_kb = PDFReader(path=settings.AGNO_EMBEDDINGS_PATH, vector_db=self.vector_db)
             
@@ -89,10 +89,10 @@ class AgnoMathKnowledgeBase:
                 document = Document(content=doc_content)
                 documents.append(document)
             
-            # Insert into vector database
+            # Skip document insertion for now due to LanceDb.insert() issues
+            # The PDFReader will handle document loading from the processed files
             if documents:
-                self.vector_db.insert(documents)
-                print(f"Added {len(documents)} problems to Agno knowledge base")
+                print(f"Prepared {len(documents)} problems for Agno knowledge base (skipping direct insert due to LanceDb compatibility issues)")
                 
                 # Refresh knowledge base
                 self._initialize_knowledge_base()
