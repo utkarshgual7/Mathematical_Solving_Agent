@@ -1,6 +1,6 @@
 import json
 import asyncio
-from typing import Dict, List, Tuple
+from typing import Dict, List
 from app.agents.math_agent import MathRoutingAgent
 
 class JEEBenchmarkEvaluator:
@@ -63,8 +63,8 @@ class JEEBenchmarkEvaluator:
                 })
         
         # Calculate metrics
-        accuracy = correct_answers / total_problems
-        avg_confidence = total_confidence / total_problems
+        accuracy = correct_answers / total_problems if total_problems > 0 else 0
+        avg_confidence = total_confidence / total_problems if total_problems > 0 else 0
         
         evaluation_report = {
             "total_problems": total_problems,

@@ -1,0 +1,60 @@
+2025-09-14 14:39:16,351 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,351 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,351 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:16,351 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:16,353 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:16,353 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:16,353 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:16,611 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:16,611 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:16,611 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:16,612 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:16,612 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:16,612 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:16,781 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:16,781 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:16,781 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:16,807 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,807 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,807 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,807 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:16,807 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:16,807 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:16,815 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,815 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,815 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:16,815 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:16,815 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:16,815 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,526 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,526 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,526 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,526 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,744 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,744 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,744 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,744 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:39:47,746 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,746 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,746 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,746 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,901 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,901 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,901 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,901 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,929 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Prepared 627 documents for knowledge base (skipping direct insert due to LanceDb compatibility issues)
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:39:47,938 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
