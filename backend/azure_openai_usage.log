@@ -202,3 +202,22 @@ Use pytorch device_name: cpu
 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
 Use pytorch device_name: cpu
 Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Downloading detection model, please wait. This may take several minutes depending upon your network connection.
+Download complete
+Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+Download complete.
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2

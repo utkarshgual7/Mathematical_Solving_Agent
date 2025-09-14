@@ -1,5 +1,6 @@
 import dspy
 from typing import Dict, List, Optional
+from datetime import datetime
 from app.services.vector_service import MathKnowledgeBase
 from app.services.mcp_service import WebSearchMCP
 from app.core.config import settings
@@ -43,6 +44,13 @@ class MathRoutingAgent:
     async def solve_problem(self, question: str, user_id: str) -> Dict:
         """Main routing logic for mathematical problem solving"""
         
+        # Initialize processing status
+        processing_status = {
+            "stage": "searching_knowledge_base",
+            "message": "Searching knowledge base for similar problems...",
+            "progress": 25
+        }
+        
         # Step 1: Check knowledge base
         similar_problems = await self.knowledge_base.search_similar_problems(
             question, limit=3, score_threshold=0.8
@@ -50,22 +58,53 @@ class MathRoutingAgent:
         
         if similar_problems:
             # Use knowledge base solution
+            processing_status.update({
+                "stage": "solving_with_knowledge",
+                "message": "Found similar problems in knowledge base. Generating solution...",
+                "progress": 75
+            })
+            
             context = self._format_context(similar_problems)
             result = await self._solve_with_context(question, context)
             result["source"] = "knowledge_base"
             result["similar_problems"] = similar_problems
         else:
             # Fallback to web search
+            processing_status.update({
+                "stage": "searching_web",
+                "message": "No similar problems found. Searching the web...",
+                "progress": 50
+            })
+            
             search_results = await self.web_search.search_math_content(question)
             if search_results:
+                processing_status.update({
+                    "stage": "solving_with_web_results",
+                    "message": "Found relevant information online. Generating solution...",
+                    "progress": 75
+                })
+                
                 context = self._format_search_context(search_results)
                 result = await self._solve_with_context(question, context)
                 result["source"] = "web_search"
                 result["search_results"] = search_results
             else:
                 # Generate solution without context
+                processing_status.update({
+                    "stage": "generating_solution",
+                    "message": "Generating solution using AI reasoning...",
+                    "progress": 75
+                })
+                
                 result = await self._solve_without_context(question)
                 result["source"] = "generated"
+        
+        # Final validation
+        processing_status.update({
+            "stage": "validating",
+            "message": "Validating solution...",
+            "progress": 90
+        })
         
         # Validate solution
         validation = self.validator(
@@ -77,6 +116,15 @@ class MathRoutingAgent:
             "is_correct": validation.is_correct,
             "feedback": validation.feedback
         }
+        
+        # Mark as complete
+        processing_status.update({
+            "stage": "completed",
+            "message": "Solution generated successfully!",
+            "progress": 100
+        })
+        
+        result["processingStatus"] = processing_status
         
         return result
     
@@ -149,7 +197,7 @@ class MathRoutingAgent:
             "solution": solution,
             "feedback": feedback,
             "user_id": user_id,
-            "timestamp": dspy.utils.get_timestamp()
+            "timestamp": datetime.now()
         }
         
         self.feedback_history.append(feedback_entry)

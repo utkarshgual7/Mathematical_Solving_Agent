@@ -1,13 +1,16 @@
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import FastAPI, HTTPException, Depends, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from app.core.config import settings
 from app.core.guardrails import InputGuardrails, OutputGuardrails, GuardrailsConfig
 from app.agents.math_agent import MathRoutingAgent
 from app.services.vector_service import MathKnowledgeBase, load_jee_dataset
 from app.services.mcp_service import WebSearchMCP
 from app.services.feedback_service import HumanInLoopManager
+from app.services.image_service import image_service
 from typing import Dict
 import asyncio
+import os
 
 app = FastAPI(title=settings.PROJECT_NAME, version="1.0.0")
 
@@ -19,6 +22,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Mount static files for uploaded images
+if not os.path.exists("uploads"):
+    os.makedirs("uploads")
+app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 # Global services
 knowledge_base = None
@@ -65,11 +73,33 @@ async def startup_event():
         # Continue startup even if some components fail
         print("Continuing with partial initialization...")
 
+@app.post("/api/v1/upload-image")
+async def upload_image(image: UploadFile = File(...)):
+    """Upload and process image to extract mathematical content"""
+    try:
+        # Validate file type
+        if not image.content_type or not image.content_type.startswith('image/'):
+            raise HTTPException(status_code=400, detail="File must be an image")
+        
+        # Process the image
+        result = await image_service.process_image(image)
+        
+        if not result["success"]:
+            raise HTTPException(status_code=500, detail=result.get("error", "Failed to process image"))
+        
+        return result
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Image processing failed: {str(e)}")
+
 @app.post("/api/v1/solve")
 async def solve_math_problem(request: Dict):
     """Main endpoint for solving mathematical problems"""
     question = request.get("question", "")
     user_id = request.get("user_id", "anonymous")
+    image_url = request.get("image_url", "")
     
     if not question:
         raise HTTPException(status_code=400, detail="Question is required")
@@ -82,11 +112,18 @@ async def solve_math_problem(request: Dict):
     
     try:
         print(f"Solving problem: {question}")
+        if image_url:
+            print(f"With image: {image_url}")
+        
         # Input guardrails
         await guardrails_input.validate_input(question, user_id)
         
         # Solve problem
         result = await math_agent.solve_problem(question, user_id)
+        
+        # Add image URL to result if provided
+        if image_url:
+            result["imageUrl"] = image_url
         
         # Output guardrails
         output_validation = await guardrails_output.validate_output(

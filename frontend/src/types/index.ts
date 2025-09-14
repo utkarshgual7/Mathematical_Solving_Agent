@@ -2,6 +2,8 @@ export interface MathProblem {
   question: string;
   topic?: string;
   difficulty?: string;
+  image?: File;
+  imageUrl?: string;
 }
 
 export interface SolutionResponse {
@@ -17,6 +19,9 @@ export interface SolutionResponse {
     feedback: string;
   };
   steps?: string;
+  imageUrl?: string;
+  extractedText?: string;
+  processingStatus?: ProcessingStatus;
 }
 
 export interface SimilarProblem {
@@ -38,4 +43,17 @@ export interface FeedbackData {
   rating: number;
   comments: string;
   corrections?: string;
+}
+
+export interface ProcessingStatus {
+  stage: 'uploading' | 'extracting_text' | 'searching_knowledge_base' | 'searching_web' | 'generating_solution' | 'completed';
+  message: string;
+  progress?: number;
+}
+
+export interface ImageUploadResponse {
+  imageUrl: string;
+  extractedText: string;
+  success: boolean;
+  error?: string;
 }
