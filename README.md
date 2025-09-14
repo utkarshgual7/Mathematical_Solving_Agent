@@ -1,12 +1,12 @@
-# Mathematical Routing Agent
+# Mathematical Routing Agent with Agno
 
-A comprehensive AI system for solving mathematical problems with step-by-step explanations, built with FastAPI, DSPy, React, and Qdrant.
+A comprehensive AI system for solving mathematical problems with step-by-step explanations, built with FastAPI, Agno, React, and Qdrant.
 
 ## Features
 
 - **AI Gateway with Guardrails**: Input/output validation focused on mathematics-only queries
 - **Vector Database Knowledge Base**: Using Qdrant with embeddings from sentence-transformers
-- **DSPy-based Math Agent**: Step-by-step mathematical problem solving and solution validation
+- **Agno-based Math Agent**: Step-by-step mathematical problem solving and solution validation
 - **Model Context Protocol (MCP) Server**: Advanced mathematical web search using Tavily
 - **Human-in-the-Loop Feedback System**: Async review requests, feedback parsing, and continuous learning
 - **JEE Benchmark Evaluation**: Assessing system accuracy on JEE Main 2025 dataset
@@ -33,7 +33,7 @@ A comprehensive AI system for solving mathematical problems with step-by-step ex
 │                                                             │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
 │  │ Math Agent  │  │ Knowledge   │  │ Web Search  │         │
-│  │ (DSPy)      │  │ Base RAG    │  │ MCP Server  │         │
+│  │ (Agno)      │  │ Base RAG    │  │ MCP Server  │         │
 │  └─────────────┘  └─────────────┘  └─────────────┘         │
 │                                                             │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
@@ -61,33 +61,43 @@ backend/
 │   ├── main.py
 │   ├── api/
 │   │   ├── __init__.py
-│   │   ├── endpoints/
-│   │   │   ├── math_agent.py
-│   │   │   ├── feedback.py
-│   │   │   └── knowledge.py
-│   │   └── deps.py
+│   │   └── endpoints/
+│   │       └── __init__.py
 │   ├── core/
+│   │   ├── __init__.py
 │   │   ├── config.py
-│   │   ├── security.py
 │   │   └── guardrails.py
 │   ├── agents/
 │   │   ├── __init__.py
-│   │   ├── math_agent.py
-│   │   ├── knowledge_retriever.py
-│   │   └── web_search.py
+│   │   └── math_agent.py
 │   ├── models/
-│   │   ├── __init__.py
-│   │   ├── database.py
-│   │   └── schemas.py
+│   │   └── __init__.py
 │   ├── services/
 │   │   ├── __init__.py
-│   │   ├── vector_service.py
 │   │   ├── feedback_service.py
-│   │   └── mcp_service.py
+│   │   ├── image_service.py
+│   │   ├── mcp_service.py
+│   │   ├── pdf_processing_service.py
+│   │   └── vector_service.py
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   └── test_math_agent.py
 │   └── utils/
 │       ├── __init__.py
-│       ├── embeddings.py
 │       └── evaluation.py
+├── knowledge_base/
+│   ├── processed/
+│   └── README.md
+├── uploads/
+├── Dockerfile
+├── README.md
+├── explore_agno.py
+├── jee_benchmark_results.json
+├── jee_benchmark_results_detailed.json
+├── jee_benchmark_summary.json
+├── run_benchmark.py
+├── test_agno_basic.py
+└── test_agno_integration.py
 ├── requirements.txt
 └── docker-compose.yml
 ```
@@ -96,24 +106,24 @@ backend/
 
 ```
 frontend/
-├── public/
 ├── src/
 │   ├── components/
 │   │   ├── ChatInterface.tsx
 │   │   ├── FeedbackForm.tsx
-│   │   └── ReviewPanel.tsx
-│   ├── services/
-│   │   ├── api.ts
-│   │   └── websocket.ts
+│   │   └── ProcessingLoader.tsx
 │   ├── hooks/
-│   │   ├── useChat.ts
-│   │   └── useFeedback.ts
+│   │   └── useChat.ts
+│   ├── services/
+│   │   └── api.ts
+│   ├── styles/
+│   │   └── globals.css
 │   ├── types/
 │   │   └── index.ts
 │   ├── App.tsx
-│   ├── main.tsx
-│   └── styles/
-│       └── globals.css
+│   └── main.tsx
+├── Dockerfile
+├── index.html
+├── package-lock.json
 ├── package.json
 └── vite.config.ts
 ```
@@ -135,7 +145,7 @@ frontend/
 3. Set up environment variables in a `.env` file:
    ```
    GEMINI_API_KEY=your_gemini_api_key
-   TAVILY_API_KEY=
+   TAVILY_API_KEY=your_tavily_api_key
    ```
 
 ### Frontend
@@ -191,21 +201,11 @@ The application will be available at:
 
 Run the JEE benchmark evaluation:
 ```bash
-python -m app.utils.evaluation
+cd backend
+python run_benchmark.py
 ```
 
 ### Frontend Development
 
 The React frontend uses Vite for fast development and hot reloading.
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

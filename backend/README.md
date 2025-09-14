@@ -24,14 +24,14 @@ This will:
 
 ### Benchmark Components
 
-- **Evaluator**: [app/utils/evaluation.py](app/utils/evaluation.py) - Contains the `JEEBenchmarkEvaluator` class
-- **Execution Script**: [run_benchmark.py](run_benchmark.py) - Script to execute the benchmark
+- **Evaluator**: [app/utils/evaluation.py](file:///C:/Users/utkar/Downloads/ai_assign/backend/app/utils/evaluation.py) - Contains the `JEEBenchmarkEvaluator` class
+- **Execution Script**: [run_benchmark.py](file:///C:/Users/utkar/Downloads/ai_assign/backend/run_benchmark.py) - Script to execute the benchmark
 - **Dataset**: Currently uses a sample dataset, but can be extended to use the full HuggingFace dataset
 
 ### Output Files
 
 After running the benchmark, two files will be generated:
-1. `jee_benchmark_results.json` - Detailed results for each problem
+1. `jee_benchmark_results_detailed.json` - Detailed results for each problem
 2. `jee_benchmark_summary.json` - Summary statistics
 
 ### Extending the Benchmark
