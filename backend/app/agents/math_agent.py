@@ -284,12 +284,13 @@ class MathRoutingAgent:
             # Search Agno knowledge base if available
             if self.knowledge_base:
                 try:
-                    kb_results = self.knowledge_base.search(query=question, limit=3)
+                    # Use vector service for searching
+                    from app.services.vector_service import AgnoMathKnowledgeBase
+                    vector_service = AgnoMathKnowledgeBase()
+                    kb_results = await vector_service.search_similar_problems(query=question, limit=3)
                     if kb_results:
                         for result in kb_results:
-                            if hasattr(result, 'content'):
-                                context_parts.append(f"Knowledge Base: {result.content}")
-                            elif isinstance(result, dict):
+                            if isinstance(result, dict):
                                 content = result.get('content', result.get('text', str(result)))
                                 context_parts.append(f"Knowledge Base: {content}")
                 except Exception as e:

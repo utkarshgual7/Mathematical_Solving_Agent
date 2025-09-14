@@ -389,6 +389,9 @@ class MathPDFProcessor:
             # Create knowledge base content for Agno
             knowledge_content = self._format_for_agno(all_problems)
             
+            # Insert documents into LanceDB
+            vector_db.insert(documents=knowledge_content)
+            
             self.logger.info(f"Created Agno knowledge base with {len(all_problems)} problems")
             
             return PDFReader(

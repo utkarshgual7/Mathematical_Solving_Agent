@@ -112,8 +112,39 @@ async def solve_math_problem(request: Dict):
     
     try:
         print(f"Solving problem: {question}")
+        print(f"Image URL received: '{image_url}'")
         if image_url:
             print(f"With image: {image_url}")
+            
+            # Extract text from image if image_url is provided
+            try:
+                # Get filename from image_url (remove /uploads/ prefix)
+                filename = image_url.replace("/uploads/", "")
+                print(f"Extracted filename: {filename}")
+                image_path = image_service.get_image_path(filename)
+                print(f"Image path resolved to: {image_path}")
+                
+                if image_path and os.path.exists(image_path):
+                    print(f"Image file exists, extracting text...")
+                    extracted_text = await asyncio.get_event_loop().run_in_executor(
+                        None, image_service._extract_text_from_image, image_path
+                    )
+                    print(f"Extracted text: {extracted_text[:100]}..." if extracted_text else "No text extracted")
+                    
+                    if extracted_text and extracted_text.strip():
+                        # Combine question with extracted text
+                        if question.strip():
+                            question = f"{question}\n\nExtracted from image: {extracted_text}"
+                        else:
+                            question = extracted_text
+                        print(f"Enhanced question with image text: {question[:200]}...")
+                    else:
+                        print("No text could be extracted from the image")
+                else:
+                    print(f"Image file not found: {image_path}")
+            except Exception as e:
+                print(f"Error processing image: {e}")
+                # Continue with original question if image processing fails
         
         # Input guardrails
         await guardrails_input.validate_input(question, user_id)
@@ -184,6 +215,15 @@ async def submit_review(request: Dict):
     await human_loop_manager.submit_feedback(request_id, feedback_data)
     
     return {"status": "review_submitted"}
+
+@app.post("/api/v1/debug")
+async def debug_endpoint(request: Dict):
+    """Debug endpoint to test request parsing"""
+    return {
+        "received_data": request,
+        "image_url": request.get("image_url", "NOT_FOUND"),
+        "question": request.get("question", "NOT_FOUND")
+    }
 
 @app.get("/health")
 async def health_check():

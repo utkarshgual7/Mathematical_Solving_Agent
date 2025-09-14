@@ -1,0 +1,6 @@
+2025-09-14 14:00:55,930 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:00:56,234 - pdf_processor - INFO - Successfully processed 503 problems from knowledge_base\pdfs\18275-JEE-Main_Morning-Shift-1_06-04-2024_Faculty-Copy-1.pdf
+2025-09-14 14:00:56,235 - pdf_processor - INFO - Processing PDF: knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:00:56,422 - pdf_processor - INFO - Successfully processed 124 problems from knowledge_base\pdfs\Functions - JEE Main 2024 January Question Bank - MathonGo.pdf
+2025-09-14 14:00:56,451 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
+2025-09-14 14:00:56,460 - pdf_processor - INFO - Created Agno knowledge base with 627 problems
